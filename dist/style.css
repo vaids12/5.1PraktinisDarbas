@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+      width: 100%;
+    height: 100vh;
+   
+}
+
+.title {
+    width: 100%;
+    height:30%;
+     background: url(./img/credCard.webp);
+     background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.titleWords {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(146, 170, 241);
+    opacity: 0.7;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.main {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(238, 239, 241);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.leftBox{
+    width: 30%;
+    height: 82%;
+    margin-top: 100px; 
+   
+}
+
+.left {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+.circleLeft1 {
+    width: 70px;
+    height: 70px;
+    border:3px solid rgb(15, 132, 161);
+    border-radius: 70px;
+    position: absolute;
+   right: 77px;
+   top: 6px;
+   z-index: 1;
+   background-color:rgb(238, 239, 241) ;
+}
+
+.circleLeft2 {
+    width: 70px;
+    height: 70px;
+    border:3px solid rgb(13, 50, 73);
+    border-radius: 70px;
+    position: absolute;
+   right: 77px;
+   top: 6px;
+   z-index: 1;
+   background-color:rgb(238, 239, 241) ;
+}
+
+.left i {
+    z-index: 2;
+    position: absolute;
+    font-size: 20px;
+    top: 36px;
+    right: 105px;
+    /* color: green; */
+}
+
+.leftTitle {
+    width: 60%;
+    height: 46px;
+    border: 2px solid gray;
+    text-align: center;
+    padding:  20px 17px 0 0; 
+    margin: 10px 0 10px 100px;   
+}
+
+.leftTitle a{
+     text-decoration: none;
+     color: black;
+}
+
+
+.lineLeft{
+    border: 1px solid gray;
+    width: 19%;
+ margin: 45px 0;
+}
+
+.center{
+    width: 40%;
+    height: 85%;   
+}
+
+.centerBox {
+    width: 99.5%;
+    height: 63.8%;
+    padding-top: 1px;
+    margin-bottom: 150px;
+    margin-top: 145px;
+    border-left:2px solid gray ;
+    border-right:2px solid gray ; 
+}
+
+.centerIcon {
+position: relative;
+}
+
+.centerCircle {
+   width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 3px solid gray;
+    text-align: center;
+    position: absolute; 
+    top: 55px;
+    left: 250px;
+    background-color: rgb(238, 239, 241);
+    z-index: 1;
+}
+
+
+.centerIcon i {
+position: absolute;
+font-size: 120px;
+top: 90px;
+left: 305px;
+z-index: 2;
+}
+
+.centerIcon p {
+position: absolute;
+font-size: 40px;
+font-weight: 800;
+top: 220px;
+left: 287px;
+z-index: 2;
+}
+
+.centerLine {
+    border: 1px solid gray;
+    width: 100%; 
+    margin: 183px 0;
+}
+
+.right {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+.rightBox{
+    width: 30%;
+    height: 82%;   
+    margin-top: 100px;    
+}
+
+.lineRight{
+    border: 1px solid gray;
+    width: 18.8%;
+ margin: 45px 0;
+}
+
+.rightTitle {
+    width: 60%;
+    height: 46px;
+    border: 2px solid gray;
+    text-align: center;
+    padding:  20px 0 0 17px ; 
+    margin: 10px 100px 10px 0 ;    
+}
+
+.rightTitle a{
+     text-decoration: none;
+     color: black;
+}
+
+.circleRight1 {
+    width: 70px;
+    height: 70px;
+    border:4px solid rgb(15, 132, 161);
+    border-radius: 70px;
+    position: absolute;
+   left: 77px;
+   top: 6px;
+   z-index: 1;
+   background-color:rgb(238, 239, 241) ;
+}
+.circleRight2 {
+    width: 70px;
+    height: 70px;
+    border:4px solid rgb(13, 50, 73);
+    border-radius: 70px;
+    position: absolute;
+   left: 77px;
+   top: 6px;
+   z-index: 1;
+   background-color:rgb(238, 239, 241) ;
+}
+
+.right i {
+    z-index: 2;
+    position: absolute;
+    font-size: 20px;
+    top: 36px;
+    left: 105px;
+    /* color: red; */
+}
+
+.blue {
+    color: rgb(13, 50, 73);
+}
+
+.lBlue{
+    color: rgb(15, 132, 161);
+}
+
+
+
+
+
+
