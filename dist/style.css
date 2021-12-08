@@ -158,16 +158,17 @@ body {
     margin: 182px 0;
 }
 
-.right {
-    display: flex;
-    flex-flow: row nowrap;
-    position: relative;
-}
 
 .rightBox {
     width: 30%;
     height: 82%;
     margin-top: 100px;
+}
+
+.right {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
 }
 
 .lineRight {
